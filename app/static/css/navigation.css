@@ -1,0 +1,29 @@
+/* to solve in page navigation issues */
+#main {
+    position: relative;
+    width: 930px;
+    padding:10px;
+    margin:0 auto; 
+}
+
+#left {
+    float:left;
+}
+
+#right {
+  position:absolute;
+  right:0;
+  top:0;
+  float:right;
+}
+
+#bottom {
+    clear:both;
+    left:0;
+    position: absolute;
+    bottom:-20px;
+}
+
+#up {
+    clear: both;
+}

@@ -1,0 +1,8 @@
+ARG app
+PKG apache24
+CP "$APP" /usr/local/www
+SYSRC apache24_enable=YES
+SYSRC apache24_flags=""
+CMD httpd -t
+SERVICE apache24 start
+
